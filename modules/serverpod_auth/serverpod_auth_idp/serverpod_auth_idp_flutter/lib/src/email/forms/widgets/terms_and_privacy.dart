@@ -51,7 +51,7 @@ class TermsAndPrivacyText extends StatelessWidget {
                 ),
               ),
             ),
-            child: DefaultTextStyle(
+            child: DefaultTextStyle.merge(
               style: const TextStyle(
                 fontSize: 12,
               ),
